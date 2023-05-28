@@ -1,0 +1,189 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    color: white;
+    font-family: 'Roboto'
+}
+
+h2 {
+    font-weight: 600;
+}
+
+header {
+    background-color: rgb(100, 22, 22);
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header_divLogo {
+    margin-left: 3em;
+    display: flex;
+    align-items: center;
+}
+
+.header_divLinks {
+    margin-left: 20em;
+}
+
+.header_divLinks nav {
+    display: flex;
+}
+
+.header_divLinks nav a {
+    
+    padding-right: 10em;
+    font-family: 'Inter', sans-serif;
+    list-style-type: none
+}
+
+@media (max-width: 700px) {
+
+    header {
+        flex-direction: column;
+        height: 8em;
+    }
+
+    .header_divLinks {
+        margin-left: 0;
+        display: flex;
+         
+    }
+
+    .header_divLinks nav a {
+
+        margin-top: 1em;
+        padding-right: 1em;
+        font-family: 'Inter', sans-serif;
+        list-style-type: none
+    }
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(7, 0, 0);
+  }
+
+
+/* MAIN  
+
+main {
+    
+    color: black;
+    display: flex;
+    height: 30em;
+    justify-content: space-around;
+}
+
+.main_divIntro {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.carousel {
+    height: 31em;
+}
+
+section {
+
+    color: black;
+    display: flex;
+    justify-content: space-evenly
+}
+
+
+.contenedorizq {
+    display: flex;
+    padding: 0.5em;
+}
+
+.zz {
+    margin-right: 1em;
+}
+
+
+/* CONTACTO */
+
+.fff {
+
+    height: 20em;
+    width: 50%;
+    color: rgb(10, 1, 26);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+
+}
+
+
+.forKids {
+
+    background-color: rgb(100, 22, 22);
+    height: 70em;
+    display: flex;
+    flex-direction: column;
+}
+
+.asd {
+    display: flex;
+    justify-content: center;
+
+}
+
+.forKids_card {
+
+    height: 30em;
+}
+
+.forKids_card img {
+
+    height: 25em;
+    width: 100%;
+    padding: 0.5em;
+}
+
+.forKids_card button {
+    display: flex;
+    margin: auto;
+
+}
+
+.forKids_card h6 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    height: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_contacto {
+    display: flex;
+}
+
+.footer_contacto_h6 {
+    padding-right: 0.5em;
+}
+
+.footer_copy {
+    display: flex;
+    justify-content: end;
+    margin-left: 1em;
+}
